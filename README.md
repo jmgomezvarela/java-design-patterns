@@ -1,3 +1,3 @@
 # Patrones de Diseño en Java. Ejemplos.
 
-![alt text](https://commons.wikimedia.org/wiki/File:Diagrama_Abstract_Factory.png)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/b/b7/Diagrama_Abstract_Factory.png)
