@@ -44,6 +44,25 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 
 * [Armado de equipo de futbol](https://github.com/jmgomezvarela/java-design-patterns/tree/master/abtractFactorySoccer/src)
 
+## <a name="factory">Factory</a> [&#8593;](#lista-de-patrones)
+
+**Propósito:** Definir una interface para crear un objeto, dejando a las subclases decidir de que tipo de clase se realizará la instancia. Reducir el uso del operador *new*.
+
+Crear objetos en una clase usando un método factory es más flexible que crear un objeto directamente. Es posible conectar la generación de familias de clases que tienen comportamientos en común. Elimina la necesidad de estar haciendo binding (casting) hacia clases específicas dentro del código, ya que este solo se entiende con las clases abstractas.
+
+**Diagrama:**
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/7/73/Factory_Method.png)
+
+**Aplicación:** Usamos el patrón Factory...
+* Cuando una clase no puede anticipar que clase de objetos debe crear, esto se sabe durante el tiempo de ejecución.
+* Cuando un método regresa una de muchas posibles clases que comparten carecterísticas comunes a través de una superclase.
+* Para encapsular la creación de objetos.
+
+**Ejemplos:**
+
+* [Carros](https://github.com/LuisBurgos/design-patterns/tree/master/src/factory/examples/cars)
+
 
 
 
