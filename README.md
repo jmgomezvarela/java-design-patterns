@@ -17,7 +17,7 @@ La siguiente es una lista de patrones de diseño con descripcipnes breves y con 
 Relativos al proceso de creación de un objeto.
 
 * [Abstract Factory](#abstract-factory)
-* [Factory](#factory)
+* [Factory Method](#factory)
 * [Builder](#builder)
 * [Singleton](#singleton)
 * [Prototype](#prototype)
@@ -44,7 +44,7 @@ Es una jerarquía que encapsula muchas *familias* posibles y la creación de un 
 
 * [Armado de equipo de futbol](https://github.com/jmgomezvarela/java-design-patterns/tree/master/abtractFactorySoccer/src)
 
-## <a name="factory">Factory</a> [&#8593;](#lista-de-patrones)
+## <a name="factory">Factory Method</a> [&#8593;](#lista-de-patrones)
 
 **Propósito:** Definir una interface para crear un objeto, dejando a las subclases decidir de que tipo de clase se realizará la instancia. Reducir el uso del operador *new*.
 
