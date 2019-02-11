@@ -1,4 +1,4 @@
-# Patrones de Diseño en Java. Ejemplos.
+# Patrones de Diseño en Java. Explicación y Ejemplos.
 
 ## Introducción.
 
