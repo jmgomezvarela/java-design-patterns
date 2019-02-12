@@ -61,7 +61,7 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 
 **Ejemplos:**
 
-* [Carros](https://github.com/LuisBurgos/design-patterns/tree/master/src/factory/examples/cars)
+* [Stadiums](https://github.com/jmgomezvarela/java-design-patterns/tree/master/factoryMethodStadiums/src/com/ar)
 
 
 
