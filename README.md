@@ -85,3 +85,36 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 **Ejemplo:**
 * [Equipos Futbol Español](https://github.com/jmgomezvarela/java-design-patterns/tree/master/builder/src/com/ar/design/pattern/builder/team)
 
+## <a name="singleton">Singleton</a> [&#8593;](#lista-de-patrones)
+
+**Propósito:** Asegurar que una clase tenga una única instancia y proporcionar un punto de acceso global a la misma. El *cliente* llama a la función de acceso cuando se requiere una referencia a la instancia única.
+
+**Diagrama:**
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Singleton_UML_class_diagram.svg/1280px-Singleton_UML_class_diagram.svg.png)
+
+**Aplicación:** Usamos el patrón Singleton...
+* La aplicación necesita una, y sólo una, instancia de una clase, además está instancia requiere ser accesible desde cualquier punto de la aplicación.
+* Tipicamente para:
+  * Manejar conexiones con la base de datos.
+  * La clase para hacer Login.
+
+**Ejemplos:**
+* [Gobierno](https://github.com/LuisBurgos/design-patterns/tree/master/src/singleton/examples/government)
+
+## <a name="prototype">Prototype</a> [&#8593;](#lista-de-patrones)
+
+**Propósito:** Especificar varios tipos de objetos que pueden ser creados en un prototipo para crear nuevos objetos copiando ese prototipo. Reduce la necesidad de crear subclases.
+
+**Diagrama:**
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/ProtipoEstructura.png/600px-ProtipoEstructura.png)
+
+**Aplicación:** Usamos el patrón Prototype...
+* Queremos crear nuevos objetos mediante la *clonación* o *copia* de otros.
+* Cuando tenemos muchas clases potenciales que queremos usar sólo si son requeridas durante el tiempo de ejecución.
+
+**Ejemplos:**
+* [Animales](https://github.com/LuisBurgos/design-patterns/tree/master/src/prototype/examples/animals)
+
+
