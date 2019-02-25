@@ -59,7 +59,7 @@ Crear objetos en una clase usando un método factory es más flexible que crear 
 * Cuando un método regresa una de muchas posibles clases que comparten carecterísticas comunes a través de una superclase.
 * Para encapsular la creación de objetos.
 
-**Ejemplos:**
+**Ejemplo:**
 
 * [Construccion de diversos estadios](https://github.com/jmgomezvarela/java-design-patterns/tree/master/factoryMethodStadiums/src/com/ar)
 
@@ -82,6 +82,6 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
 * Que la creación de las partes de un objeto sea independiente del objeto principal.
 * Ocultar la creación de las partes de un objeto del *cliente*, de esta manera no existe dependencia entre el *cliente* y las partes.
 
-**Ejemplos:**
+**Ejemplo:**
 * [Equipos Futbol Español](https://github.com/jmgomezvarela/java-design-patterns/tree/master/builder/src/com/ar/design/pattern/builder/team)
 
