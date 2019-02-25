@@ -100,7 +100,7 @@ A diferencia de otros patrones creacionales que construyen productos de una sola
   * La clase para hacer Login.
 
 **Ejemplos:**
-* [Gobierno](https://github.com/LuisBurgos/design-patterns/tree/master/src/singleton/examples/government)
+* [Organismo FIFA](https://github.com/jmgomezvarela/java-design-patterns/tree/master/singleton)
 
 ## <a name="prototype">Prototype</a> [&#8593;](#lista-de-patrones)
 
